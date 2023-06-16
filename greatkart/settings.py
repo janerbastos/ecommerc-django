@@ -102,3 +102,9 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {messages.ERROR: "danger", "50": "critical"}
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# SEND-MAIL
+EMAIL_HOST = "sandbox.smtp.mailtrap.io"
+EMAIL_HOST_USER = "6c497b6f17563e"
+EMAIL_HOST_PASSWORD = "867fce6fc25ef8"
+EMAIL_PORT = "2525"
